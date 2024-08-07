@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="contacts_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\contacts_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tablet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ok_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\ok_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngfind.com-laptop-png-603470" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\produtos\pngfind.com-laptop-png-603470.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_60px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\home_60px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="celular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\celular.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopping_cart_80px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopping_cart_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="port-hp161-r7-5800h-fhd-victus-game-16g-512-ssd-4gfx-w11h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\port-hp161-r7-5800h-fhd-victus-game-16g-512-ssd-4gfx-w11h.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smartphone-xiaomi-redmi-9c-4128gb-gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smartphone-xiaomi-redmi-9c-4128gb-gray.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_privacy_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_privacy_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_customer_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_customer_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="registration_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\registration_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="handshake_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\handshake_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dfdsa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dfdsa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-hewlett-packard-ink-cartridge-printer-hp-deskjet-ink-cartridges-5b0f87ddc37353.9000577215277444778006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\produtos\kisspng-hewlett-packard-ink-cartridge-printer-hp-deskjet-ink-cartridges-5b0f87ddc37353.9000577215277444778006.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="port-asus-x543-156-i5-8250u-8g-1tb-w10h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\port-asus-x543-156-i5-8250u-8g-1tb-w10h.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="port-hp-zfirefly-156-i7-1165g7-uhd-32gb-1tb-ssd-w10p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\port-hp-zfirefly-156-i7-1165g7-uhd-32gb-1tb-ssd-w10p.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="relogio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\relogio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\cancel_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smartphone-xiaomi-redmi-note-10-4gb128gb-5g-ds-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smartphone-xiaomi-redmi-note-10-4gb128gb-5g-ds-blue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopping_cart_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\shopping_cart_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\search_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="port-asus-zenbook-133-i7-1165g7-16g-512gb-ssd-w10h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\port-asus-zenbook-133-i7-1165g7-16g-512gb-ssd-w10h.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="credt card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\credt card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="televisao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\televisao.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopping_cart_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\shopping_cart_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\home_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="68312-login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\68312-login.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="port-hp135-i7-1195g7-fhd-spectre-x360-16g-1tb-ssd-w11h-t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\port-hp135-i7-1195g7-fhd-spectre-x360-16g-1tb-ssd-w11h-t.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="incorrect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\incorrect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\save_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="42476-register" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\42476-register.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-hewlett-packard-ink-cartridge-officejet-inkjet-pri-ink-cartridge-5b1e6ae5aed787.9369672015287201017162" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\produtos\kisspng-hewlett-packard-ink-cartridge-officejet-inkjet-pri-ink-cartridge-5b1e6ae5aed787.9369672015287201017162.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fundo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19561-encontramos-seu-cadastro-bem-vindo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19561-encontramos-seu-cadastro-bem-vindo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\user_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smartphone-xiaomi-11-lite-ne-8gb128gb-5g-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smartphone-xiaomi-11-lite-ne-8gb128gb-5g-black.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="port-hp156-i3-1125g4-fhd-slim-8g-512-ssd-w10h-prata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\port-hp156-i3-1125g4-fhd-slim-8g-512-ssd-w10h-prata.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="port-hp156-i7-1195g7-fhd-envy-x360-16g-512-ssd-w11h-t-silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\port-hp156-i7-1195g7-fhd-envy-x360-16g-512-ssd-w11h-t-silver.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="port-hp156-i5-1135g7-fhd-slim-8g-512-ssd-w10h-prata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\port-hp156-i5-1135g7-fhd-slim-8g-512-ssd-w10h-prata.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeekPng.com_monitor-png_727769" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\produtos\SeekPng.com_monitor-png_727769.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="port-hp156-i7-1165g7-fhd-slim-8g-512-ssd-w10h-prata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\port-hp156-i7-1165g7-fhd-slim-8g-512-ssd-w10h-prata.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="category_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\category_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="handshake_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\handshake_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smartphone-samsung-galaxy-a32-128gb6gb-awesome-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smartphone-samsung-galaxy-a32-128gb6gb-awesome-black.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\cancel_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="port-hp-450-156-i7-1165g7-fhd-16gb-512-ssd-w11p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\port-hp-450-156-i7-1165g7-fhd-16gb-512-ssd-w11p.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="port-hp-255-156-r5-3500u-fhd-8g-256-ssd-w10p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\port-hp-255-156-r5-3500u-fhd-8g-256-ssd-w10p.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wallet_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\wallet_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-hewlett-packard-multi-function-printer-hp-deskjet-hewlett-packard-5acf4b5f77a558.0669689115235346874901" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\imagens\produtos\kisspng-hewlett-packard-multi-function-printer-hp-deskjet-hewlett-packard-5acf4b5f77a558.0669689115235346874901.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smrtphone-bq-v-323gb-blackdeep-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smrtphone-bq-v-323gb-blackdeep-black.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smartphone-samsung-galaxy-a12-64gb4gb-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smartphone-samsung-galaxy-a12-64gb4gb-blue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smartphone-zte-blade-a5-232g-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smartphone-zte-blade-a5-232g-blue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

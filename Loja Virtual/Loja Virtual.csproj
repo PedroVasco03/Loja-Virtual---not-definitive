@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F909A04-05A3-480B-B9F2-DA2E81FA3A32}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Loja_Virtual</RootNamespace>
+    <AssemblyName>Loja Virtual</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Core, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9" />
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>bin\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>bin\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>bin\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>bin\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>bin\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>..\..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>bin\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>bin\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>bin\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>bin\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
+      <HintPath>..\..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
+      <HintPath>bin\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>bin\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
+      <HintPath>bin\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuUserControl">
+      <HintPath>bin\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>bin\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\..\Documents\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=8.0.28.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="asusZenbook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="asusZenbook.Designer.cs">
+      <DependentUpon>asusZenbook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BQv.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BQv.Designer.cs">
+      <DependentUpon>BQv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cartucho HP 803.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Cartucho HP 803.Designer.cs">
+      <DependentUpon>Cartucho HP 803.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cartuchos%28920%29.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Cartuchos%28920%29.Designer.cs">
+      <DependentUpon>Cartuchos%28920%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conexao.cs" />
+    <Compile Include="CriarConta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CriarConta.designer.cs">
+      <DependentUpon>CriarConta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Carregamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Carregamento.designer.cs">
+      <DependentUpon>frm_Carregamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_informacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_informacoes.designer.cs">
+      <DependentUpon>frm_informacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Principal.Designer.cs">
+      <DependentUpon>frm_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="galaxyA32.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="galaxyA32.Designer.cs">
+      <DependentUpon>galaxyA32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hp135i7.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="hp135i7.Designer.cs">
+      <DependentUpon>hp135i7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hp255r5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="hp255r5.Designer.cs">
+      <DependentUpon>hp255r5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hpEnvy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="hpEnvy.Designer.cs">
+      <DependentUpon>hpEnvy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hpi7.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="hpi7.designer.cs">
+      <DependentUpon>hpi7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impressora multifuncoes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Impressora multifuncoes.Designer.cs">
+      <DependentUpon>Impressora multifuncoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loja.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="loja.Designer.cs">
+      <DependentUpon>loja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageConfirm.designer.cs">
+      <DependentUpon>MessageConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="monitor hp uhd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="monitor hp uhd.Designer.cs">
+      <DependentUpon>monitor hp uhd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="redmiNote10.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="redmiNote10.Designer.cs">
+      <DependentUpon>redmiNote10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="xioamiRedmi9C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="xioamiRedmi9C.Designer.cs">
+      <DependentUpon>xioamiRedmi9C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zteBladeA5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="zteBladeA5.Designer.cs">
+      <DependentUpon>zteBladeA5.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="asusZenbook.resx">
+      <DependentUpon>asusZenbook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BQv.resx">
+      <DependentUpon>BQv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cartucho HP 803.resx">
+      <DependentUpon>Cartucho HP 803.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cartuchos%28920%29.resx">
+      <DependentUpon>Cartuchos%28920%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CriarConta.resx">
+      <DependentUpon>CriarConta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Carregamento.resx">
+      <DependentUpon>frm_Carregamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_informacoes.resx">
+      <DependentUpon>frm_informacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Principal.pt-AO.resx">
+      <DependentUpon>frm_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Principal.resx">
+      <DependentUpon>frm_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="galaxyA32.resx">
+      <DependentUpon>galaxyA32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hp135i7.resx">
+      <DependentUpon>hp135i7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hp255r5.resx">
+      <DependentUpon>hp255r5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hpEnvy.resx">
+      <DependentUpon>hpEnvy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hpi7.resx">
+      <DependentUpon>hpi7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impressora multifuncoes.resx">
+      <DependentUpon>Impressora multifuncoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loja.resx">
+      <DependentUpon>loja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageConfirm.resx">
+      <DependentUpon>MessageConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="monitor hp uhd.resx">
+      <DependentUpon>monitor hp uhd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="redmiNote10.resx">
+      <DependentUpon>redmiNote10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xioamiRedmi9C.resx">
+      <DependentUpon>xioamiRedmi9C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zteBladeA5.resx">
+      <DependentUpon>zteBladeA5.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\shopping_cart_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\search_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\contacts_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\produtos\pngfind.com-laptop-png-603470.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\produtos\kisspng-hewlett-packard-multi-function-printer-hp-deskjet-hewlett-packard-5acf4b5f77a558.0669689115235346874901.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\produtos\kisspng-hewlett-packard-ink-cartridge-officejet-inkjet-pri-ink-cartridge-5b1e6ae5aed787.9369672015287201017162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\produtos\SeekPng.com_monitor-png_727769.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\produtos\kisspng-hewlett-packard-ink-cartridge-printer-hp-deskjet-ink-cartridges-5b0f87ddc37353.9000577215277444778006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\incorrect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\ok_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\cancel_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\save_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\registration_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\user_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\shopping_cart_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\wallet_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\home_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\home_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\category_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\celular.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relogio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\televisao.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\handshake_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\handshake_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\68312-login.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_customer_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_privacy_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dfdsa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port-hp156-i3-1125g4-fhd-slim-8g-512-ssd-w10h-prata.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port-hp156-i5-1135g7-fhd-slim-8g-512-ssd-w10h-prata.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port-hp156-i7-1165g7-fhd-slim-8g-512-ssd-w10h-prata.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credt card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42476-register.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19561-encontramos-seu-cadastro-bem-vindo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port-hp156-i7-1195g7-fhd-envy-x360-16g-512-ssd-w11h-t-silver.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port-asus-x543-156-i5-8250u-8g-1tb-w10h.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smartphone-xiaomi-11-lite-ne-8gb128gb-5g-black.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smartphone-samsung-galaxy-a12-64gb4gb-blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port-hp161-r7-5800h-fhd-victus-game-16g-512-ssd-4gfx-w11h.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port-hp-450-156-i7-1165g7-fhd-16gb-512-ssd-w11p.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port-hp-zfirefly-156-i7-1165g7-uhd-32gb-1tb-ssd-w10p.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port-asus-zenbook-133-i7-1165g7-16g-512gb-ssd-w10h.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smartphone-xiaomi-redmi-note-10-4gb128gb-5g-ds-blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smrtphone-bq-v-323gb-blackdeep-black.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port-hp135-i7-1195g7-fhd-spectre-x360-16g-1tb-ssd-w11h-t.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smartphone-samsung-galaxy-a32-128gb6gb-awesome-black.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port-hp-255-156-r5-3500u-fhd-8g-256-ssd-w10p.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smartphone-xiaomi-redmi-9c-4128gb-gray.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smartphone-zte-blade-a5-232g-blue.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
